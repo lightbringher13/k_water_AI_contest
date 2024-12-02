@@ -1,0 +1,37 @@
+# Ignore virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Environment configuration files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Testing outputs (if applicable)
+.tox/
+.nox/
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
